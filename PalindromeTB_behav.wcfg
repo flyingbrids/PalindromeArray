@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PalindromeTB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PalindromeTB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.534 ns"></ZoomStartTime>
+      <ZoomEndTime time="162.335 ns"></ZoomEndTime>
+      <Cursor1Time time="27.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="164"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/PalindromeTB/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/dataIn" type="array">
+      <obj_property name="ElementShortName">dataIn[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataIn[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/dataVld" type="logic">
+      <obj_property name="ElementShortName">dataVld</obj_property>
+      <obj_property name="ObjectShortName">dataVld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/DUT/dataVld_d" type="logic">
+      <obj_property name="ElementShortName">dataVld_d</obj_property>
+      <obj_property name="ObjectShortName">dataVld_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/DUT/dataOvfl" type="logic">
+      <obj_property name="ElementShortName">dataOvfl</obj_property>
+      <obj_property name="ObjectShortName">dataOvfl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/DUT/inputPointer" type="array">
+      <obj_property name="ElementShortName">inputPointer[6:0]</obj_property>
+      <obj_property name="ObjectShortName">inputPointer[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/DUT/iterationCnt" type="array">
+      <obj_property name="ElementShortName">iterationCnt[6:0]</obj_property>
+      <obj_property name="ObjectShortName">iterationCnt[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/DUT/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/DUT/ProcessState" type="array">
+      <obj_property name="ElementShortName">ProcessState[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ProcessState[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/isTrue" type="logic">
+      <obj_property name="ElementShortName">isTrue</obj_property>
+      <obj_property name="ObjectShortName">isTrue</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PalindromeTB/dataOvfl" type="logic">
+      <obj_property name="ElementShortName">dataOvfl</obj_property>
+      <obj_property name="ObjectShortName">dataOvfl</obj_property>
+   </wvobject>
+</wave_config>
